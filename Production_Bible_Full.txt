@@ -1,0 +1,971 @@
+# KANTIBUS PRODUCTION BIBLE (CLEANED CORE)
+Version: 2025-06-08  
+Updated: After cleanup
+
+## 1. Header
+Title: KANTIBUS Production Bible  
+Version: 1.2  
+Last Updated: 2025-06-08  
+Purpose: Core reference for style prompts, FX cues, production tactics, and system appendices.
+
+## 2. Style Prompt Guide
+- Blueprint Integration: Consolidated rules for constructing prompts with descriptive clauses, cue tags, tone modifiers, and performance directives.  
+- Syntax Rules: Use single brackets [] for FX tags; parentheses () exclusively for lyrics or echo groupings.  
+- Narrative-Driven Templates: Embed story cues and emotional arcs via structured clause sequences (draft → revision → final render).
+
+## 3. FX Cue Strategies
+- Definition: All sound-design instructions use [] with genre-appropriate labels (e.g., [wooden blocks], [vinyl crackle]).  
+- Echo FX: Tag sections with [echo] before lyrics in () until a new FX tag appears.  
+- Cue Stacks: Layer multiple cues sequentially (e.g., [Beat switch] → [Choir stutter] → [echo]).  
+- Protocol Enforcement: Never place FX or style instructions inside (); no braces {} allowed.
+
+## 4. Production Tactics
+- Hybrid Flow Staging: Combine structured passes (draft, mix, final) with slider-based iterative refinements.  
+- Scene & Branch Logic: Define scene transitions using cue tags; organize by album arc stage.  
+- Escalation Methods: Use rising FX intensity and lyrical density to heighten impact.  
+- Pacing & Glitch Bloom: Introduce controlled artifacts (e.g., intentional skip or stutter cues) for dynamic texture.
+
+## 5. Artwork & Metadata
+- Cover Art Integration: Embed art prompts within metadata templates; use Tarot Protocol for thematic consistency.  
+- Platform & Description Templates: Unified SoundCloud and streaming metadata guidelines; tiered description blocks.
+
+## 6. Slider Protocol
+- Consolidated Rules: Single reference for slider flows, including value ranges, adaptive loops, and parameter tagging.  
+- Advanced Tactics: Use conditional branches in prompts to switch slider behavior based on pass outcomes.
+
+## 7. KANTIBUS Pass Appendix
+- Examples: Before-and-after pass examples demonstrating tone shifts and rewrite controls.  
+- Behavior Notes: Guidelines on when and how to apply the KANTIBUS Pass for maximum impact.
+
+## 8. Field Notes & Troubleshooting
+- SoundCloud Remaster Insight: Best practices for reflowing loops and metadata tagging.  
+- Lyrics Fix Protocol: Steps to align meter and rhyme after initial AI output.  
+- FL Studio Loop Notes: Tips for loop management and export settings.  
+- Regression Alerts: Track system regressions and workaround strategies.  
+- System Behavior Changes: Document response pattern shifts across AI versions.
+
+## 9. Version History & Change Log
+- 1.0 (2025-04-15): Initial document creation.  
+- 1.1 (2025-05-21): Consolidated legacy sections; added metadata templates.  
+- 1.2 (2025-06-08): Cleaned redundancies; standardized FX and prompt syntax; integrated KANTIBUS Pass Appendix.
+
+*End of Cleaned Core*
+
+---  
+## Appendix: Original Detailed Production Bible Content
+(The following is the full original Production Bible for reference and completeness.)
+
+###
+
+Full Style Prompt Blueprint Integration
+
+Details:
+User-verified that full 1000-character prompts with scene-by-scene structure and embedded FX cues consistently outperform abstract descriptions.
+
+Implementation:
+
+    Must describe full song structure in paragraph form
+
+    Align cue tags with emotional arc (“[Belting] on ‘cry’, ‘boil’, ‘erodes’”)
+
+    Treat style prompt as a score, not a mood
+
+###
+1. Hybrid Flow Staging – Tactical to Poetic Drift
+
+Details:
+Documented technique where lyrical voice shifts mid-track from poetic-staggered (baroque, metaphoric) to tactical-soliloquy (concrete, coded), without jarring tonal drift. This establishes a dual-layered vocal narrative — poetic for setup, tactical for payoff.
+
+Application Notes:
+
+    Start with surreal threat visuals, transition into coded logistics (“Every whip tinted...”).
+
+    Can be used to simulate shift from street lore to strategic op-speak.
+
+    Matches cinematic pacing (Act I = tension / Act II = precision)
+
+###
+Tarot-Inspired Cover Art Protocol
+
+“Visual Alignment Tactics”
+
+Details:
+Created the idea of building custom, AI-generated tarot card covers for KANTIBUS tracks. Formatting includes:
+
+    Track title in Rider-Waite style (“BRING WATER”)
+
+    Subtext as spell/incantation: (“to my enemies”)
+
+    All imagery symbolic (e.g., bullets as rain)
+
+Lessons Learned:
+
+    Image iteration must enforce weaponized visuals (e.g., bullet direction)
+
+    Style: symmetrical, iconographic, hand-colored
+
+    Position KANTIBUS as both narrator and sigil
+
+###
+“Platform Metadata Strategy”
+
+Details:
+We now have three tiers of SoundCloud descriptions:
+
+    Cinematic Teaser (Current Best): “These aren’t songs, they’re loadouts.”
+
+    Poetic Abstract (Prior Best): “Sermons in the barrel… hits like proof.”
+
+    Public-Proper (Original): “Crafted using the KANTIBUS AI…”
+
+Recommendation: Rotate based on platform or audience. Lock tags based on tier.
+
+###
+“Cue Stack Strategies”
+
+Details:
+Introduced specific FX stack for signaling beat switch:
+
+    [Beat switch] tag
+
+    Followed by [Choir solo stuttered sample] into final chorus
+
+    Ended with [Vinyl crackle + filter sweep] on outro
+
+Why it works: Creates a ritualized ending — echoes collapse.
+
+###
+SoundCloud Remaster Behavior Insight
+
+Where to file: README.txt or Production Bible.txt (cross-indexed)
+
+Summary:
+Identical settings can yield different mastering results on SoundCloud due to hidden normalizing processes. Never assume same render = same sonic output.
+
+Entry:
+
+    SoundCloud Remaster Drift
+    Note: Re-uploading a track using identical mastering settings will not always result in identical output. Platform-side mastering is non-deterministic.
+    Tactic: Use this drift to create alternate tonal versions intentionally (“Sunroof at 86%” variants) or re-render until match is achieved.
+
+###
+Lyric Fix via Vocal Swap Over Remaster
+
+Summary:
+Instead of re-rendering or editing in Suno, splice in corrected vocal segments into a previous render using a stemmed version. Ensure length and structure match, then realign musically.
+
+Entry:
+
+    “Stem Splice Restoration” Method
+    Technique: Replace corrupted or overly fast lyrical segments by slicing in corrected takes from alternate versions.
+    Requirements:
+
+        Length parity
+
+        Instrumental similarity
+
+        Phrase/beat alignment
+        Benefits: Maintains original tonality and emotion while fixing lyrical delivery glitches without rerendering full track.
+###
+“Structure & Escalation Techniques”
+
+Details:
+Validated practice of introducing beat change exclusively for the final verse, amplifying narrative weight and sonic variety.
+
+Design Guidance:
+
+    Morph should feel earned — tension-release or tonal collapse.
+
+    Common pairings: militant trap → industrial crawl / horror ambient.
+f
+    Use this to signal narrative finality or emotional turning point.
+
+###
+
+🎧 FX Cue Syntax Rules”
+Details:
+Discovered that [Shouted] or (shouted) FX tags are not consistently recognized by the model. Should be replaced with [Belting] or rephrased into rhythmic delivery changes (e.g. “triplet fire,” “shouted cadence”).
+
+###
+
+Slider Visual Tagging Reference
+
+Details:
+Confirmed exact alignment between UI sliders (Weirdness / Style Influence) and prompt strategy tiers. Can now reference visual sliders during Suno prompting.
+
+KANTIBUS SLIDER FLOWS
+
+Addition:
+
+    Image reference confirmed match between UI values and defined tiers.
+
+    Adjustments visually mapped for “Persona Lock,” “Narrative Bloom,” and “Anchor Reset.”
+
+###
+
+Banger Protocol
+
+Details:
+A distinct rendering protocol for tracks designed to hit hard across cinematic trap, war-rap, and rage formats.
+
+Definition:
+The “Banger Protocol” emphasizes high-impact phrasing, beat escalation, and FX cue alignment across verses, with a focus on hook memorability and final-verse brutality.
+
+Tactics:
+
+    Use of [Belting] on key climax words for vocal lift
+
+    [Beat switch] between V2 and Outro to punctuate narrative collapse
+
+    Crowd chant FX (e.g. [Crowd Vocal Layer: “Cloud of bullets”]) to simulate ritual ferocity
+
+    Maintain sonic threat motif throughout (e.g., gun clicks, soul loop, vinyl hiss)
+
+Slider Configuration:
+
+    Weirdness: 40–60%
+
+    Style Influence: 80–100%
+
+###
+
+Structure-Staged FX Map in Prompt Body
+
+Details:
+Technique: insert cues directly into style prompt by verse/section, e.g.:
+
+Intro uses [Soul loop chopped], [Vinyl crackle], [Gun click SFX], [Whispered]
+Verse 1 begins with [808 blast], triplet aggression, echoed threats...
+Chorus layered with [Crowd Vocal Layer: "Cloud of bullets"], [Belting on 'boil']
+Beat switch at 1:28 transitions tone to apocalyptic surge
+
+Why It Works:
+
+    Locks timing
+
+    Anchors FX to emotional map
+
+    Overrides generic model delivery
+
+###
+
+Hook Recursion Echo FX Optimization
+
+Details:
+Confirmed best placement of [[echo](line)] is at hook end or emotional recursion lines. Should not be overused — one per hook ideal.
+
+###
+
+FX Cue Refinement: Snare Ricochet
+
+Details:
+Confirmed “snare ricochet” FX layered under key lyrical cues works best when described as “sharp percussion under” or “metallic snare hit echoing on…” within the style prompt.
+
+###
+
+Syllable Shift = KANTIBUS Pass, Not GPT Drift
+
+Entry:
+
+    Syllable Shaping Clarification – Tactical Rewrites
+    Observed behavior: users mistakenly attribute syllable shortening or rhyming shifts to GPT model “variance.”
+    Correction: This is governed by the KANTIBUS Pass. The system compresses and reshapes lyrics based on:
+
+    Vocal performance pacing
+
+    Beat fit alignment
+
+    Structural clarity
+
+    Emotive lift
+    This is a surgical rewrite behavior — not emergent LLM variance.
+
+###
+
+NEW TACTICS & SYSTEM UPGRADES
+1. Sonic Omens & Recursive Motif Protocols
+
+    What it is: Layered micro-motifs (e.g., detuned chimes, reversed tones) that evolve over time and signify narrative shifts.
+
+    Usage: Embedded as symbolic aural devices in TerraWave tracks. May start subtle, then distort/compound as track collapses into chaos.
+
+
+2. Post-Outro Surge Technique
+
+    What it is: Instead of ending a track on lyrical finality, allow a 15–20 second instrumental bloom after the final lyric (e.g., “Armageddon”) to simulate sonic aftershock.
+
+3. Verse-Cued Glitch Bloom (Bridge Surge)
+
+    What it is: Bridge transitions introduce glitch motifs and sonic chaos to simulate systemic breakdown before collapse into final verse.
+
+    Implementation: Use reversed ambient pads, vinyl hiss, disintegrating choir loops.
+
+4. Lore-Driven Listener Reward (Dark Souls Theory)
+
+    What it is: Insert subtle audio clues (motifs or structural shifts) only apparent on deep listen — an embedded “lore trail” in audio.
+
+    Use case: Builds replay value; allows for metaphorical listener “quests” across tracks.
+
+
+5. Bridge-before-Surge Structural Swap
+
+    What it is: Move the sonic climax before the final verse instead of the outro, letting the lyrics land after the peak — creating emotional crater.
+
+
+6. Echo Phrase Retirement
+
+    What it is: Retire repeated FX structures like “this is what you’ll find” from future TerraWave compositions to prevent genre cannibalization.
+
+
+7. TerraWave Psychological Framing
+
+    What it is: Defined core ethos of TerraWave:
+
+        “While the world collapses, these are the voices louder than your own—so you can back off the ledge.”
+
+
+###
+
+
+Pacing Shift via Verse Isolation + Prompt Modulation
+
+Summary:
+To slow down a rapid verse while retaining musical integrity, isolate the verse and change beat structure or prompt tempo. Example: EDC’s verse 1 slowed.
+
+Entry:
+
+    Verse Tempo Modulation Protocol
+    Technique: To decelerate a specific verse without altering rest of the track, re-prompt a version with the desired verse slowed and spliced into existing render.
+    Add “first verse slower, halftime cadence” to style prompt.
+    May also require beat changes (lo-fi base, sparse hi-hats).
+
+###
+
+Patch Vocals Over Good Instrumental” Strategy
+
+Summary:
+If the vocal of one version is perfect and the beat from another is better, manually blend them via stem isolation — vocals from one version, instrumental from another.
+
+Entry:
+
+    Vocal-Over Instrument Swap Technique
+    Application: When one take has better lyrics but another has superior sonic architecture.
+    Steps:
+
+        Stem vocal from version A
+
+        Isolate instrumental from version B
+
+        Align rhythm and master as hybrid
+        Outcome: Custom-matched performance and production without needing re-renders.
+
+###
+
+
+1. Character-Based Grudge Narratives with FX Cues
+
+    Song Application: “They Got Names”
+
+    FX System: Each named character (Remy, Cipher, Colt, Sin) has implied sonic or visual styling.
+
+    Best Practice: Embed character-specific instrumentation or vocal filters to distinguish in multiverse-style tracks.
+
+2. Cinematic Cipher Format (Rework Protocol)
+
+    Cipher Structuring Rule: Split the cipher into multiple sub-voices (e.g. Male/Female lead), embed beat shift cues, and rotate dominance across verses.
+
+    Core Rule: Use “Bridge/Outro” to morph tone and exit clean.
+
+3. Voice-Glitch Callouts for Cipher Pacing
+
+    Rule: Insert voice-glitch cues at consistent bar lengths (e.g. every 8) to simulate tension drops and AI stylization.
+
+    Effect: Makes cipher feel like it’s being intercepted or corrupted in real time.
+
+###Techniques and proven tactics:
+1. Cinematic Continuity Through Structural Lore
+
+Introduced the technique of staging music as opening acts in a broader mythos (e.g. "On the Pond" as a cipher at the theatrical front of a series).
+
+Applied Jesus Christ Superstar-style theatrical opening logic to musical narrative framing.
+
+Codified album storytelling as nonlinear episodic arcs, similar to TV flashback structures (e.g. cipher → 5-year jump → rise narrative → present).
+
+2. Visual Fidelity and Cover Art Integration
+
+Developed protocol for resizing and cropping AI-generated art to fit specific platform ratios (SoundCloud: 1:1, Suno: 9:16).
+
+Matched title and artist name color schemes to elements of visual compositions (e.g. aurora colors in “On the Pond” cover).
+
+Switched between tarot-style cover framing and cinematic poster vibe depending on track’s tone/arc.
+
+3. Lyric-Music Isolation Tactic in Suno
+
+Proven method: Use existing beat + replace lyrics while preserving structure/sfx layers.
+
+Set Sliders to: Weirdness: Low / Style Influence: Medium / Audio Influence: Low to retain original instrumental vibe.
+
+4. SoundCloud Description Templates
+
+Created layered description language for SoundCloud, incorporating:
+
+Tone summary (e.g. “Each verse a flashbang.”)
+
+Track sequence logic (e.g. “This is only the first front.”)
+
+Hashtag logic (thematic, technical, emotional)
+
+5. Tactical Playlist Engineering
+
+"Anti-promo" playlist strategy: showcasing avant-garde, filter-busting content alongside commercial bangers.
+
+Constructed perception-shifting playlists such as:
+
+“You didn’t listen, delete your pitch deck.”
+
+“Avant-garde, regionalized, cinematic rap test chamber.”
+
+6. Narrative-Driven Style Prompt Syntax (Refined)
+
+Upgraded prompts with:
+
+Dual-lead vocal logic (e.g. Antiphonal structure)
+
+FX Cue hierarchy ordered by section
+
+Exclusion list tailored to strip incompatible genres (EDM, hyperpop, etc.)
+
+Structural-cinematic staging tags (e.g. [Bridge / Outro], [Beat displacement])
+
+7. Iconic Voice Characterization Tags
+
+Female lead vocal syntax: [Layered whispers], [Dual pan echo FX], [Whispered overlays]
+
+Male lead vocal syntax: [Mono delivery], [Delayed ad-libs], [Dry vox], [Slow unwind]
+
+Proven effect: Enhances spatial imaging and emotional staging during generation
+
+8. Campaign Architecture Discovery
+
+Strategic campaign idea: "35 Days of Bangers"
+
+Drop cinematic-level tracks daily
+
+Genre-spanning and region-spanning
+
+Purpose: build credibility, demonstrate speed-to-quality ratio
+
+9. Cinematic Music ≠ Genre — It’s a Format
+
+New philosophical framing: Cinematic music is not a genre but a structural/production format
+
+Involves FX tagging, narrative arcs, sound design motifs, character POV
+
+10. Public Perception Management in AI Era
+
+Strategy: Blend AI and human authorship to subvert shadowbanning filters
+
+Create high-effort visuals, cinematic descriptions, and complex narrative logic to mask AI tells
+
+Push through genre-bending output to dilute suspicion (multi-regional, multilingual, multi-emotional sets)
+
+**KANTIBUS_Pass_Examples.txt**
+
+This file demonstrates the before-and-after transformation of lyrics under the KANTIBUS Pass system. It reflects improvements in clarity, structure, and commercial viability while honoring original emotional arcs. The rewrites balance tone control, show-don't-tell dynamics, and vocal staging.
+
+---
+
+### ⚠️ EARLY KANTIBUS PASS – *"Ashes of Rosa Sparx"* (v1)
+
+**Original Draft:**
+```
+She burned her name into the sky
+The crowd was quiet, didn’t ask why
+She walked through fire and came out slow
+Her silence louder than they’d know
+```
+
+**Early KANTIBUS Pass:**
+```
+She lit the fuse and let it go
+Ashes followed where she’d flow
+Didn’t scream, didn’t run
+But Rosa Sparx had just begun
+```
+
+**Assessment:**
+- Better pacing, rhyme, and implied threat
+- Still leans into cliché: “lit the fuse,” “had just begun”
+- Needs more *scene*, less summary
+
+---
+
+### ✅ DIALED-IN KANTIBUS PASS (Same Concept, Now Refined)
+
+**Final Rewrite:**
+```
+She left footprints in the crater dust
+Eyes like prophecy, voice like rust
+Never raised her hand or flinched
+The riot parted when she clenched
+```
+
+**Upgrades Applied:**
+- **Visualized action**, not character label
+- **Dropped metaphors into physical space**
+- **Compressed** phrasing for performance
+- **Added consonant weight** to lines for impact
+
+---
+
+### 🧠 KANTIBUS PASS SYSTEM
+Core rewrite behaviors:
+- Remove abstract summaries ("she was brave") → Replace with visual/behavioral cues ("she clenched and the riot parted")
+- Tighten rhyme density without sacrificing narrative
+- Vary cadence to support rising emotion
+- Inject beat breaks or drop cues naturally
+
+**Target:** 
+To turn lyrics into scenes the model can *voice*, not just describe.
+
+This file demonstrates the before-and-after transformation of lyrics under the KANTIBUS Pass system. It reflects improvements in clarity, structure, and commercial viability while honoring original emotional arcs. The rewrites balance tone control, show-don't-tell dynamics, and vocal staging.
+
+---
+
+### ⚠️ EARLY KANTIBUS PASS – *"Ashes of Rosa Sparx"* (v1)
+
+**Original Draft:**
+```
+She burned her name into the sky
+The crowd was quiet, didn’t ask why
+She walked through fire and came out slow
+Her silence louder than they’d know
+```
+
+**Early KANTIBUS Pass:**
+```
+She lit the fuse and let it go
+Ashes followed where she’d flow
+Didn’t scream, didn’t run
+But Rosa Sparx had just begun
+```
+
+**Assessment:**
+- Better pacing, rhyme, and implied threat
+- Still leans into cliché: “lit the fuse,” “had just begun”
+- Needs more *scene*, less summary
+
+---
+
+### ✅ DIALED-IN KANTIBUS PASS (Same Concept, Now Refined)
+
+**Final Rewrite:**
+```
+She left footprints in the crater dust
+Eyes like prophecy, voice like rust
+Never raised her hand or flinched
+The riot parted when she clenched
+```
+
+**Upgrades Applied:**
+- **Visualized action**, not character label
+- **Dropped metaphors into physical space**
+- **Compressed** phrasing for performance
+- **Added consonant weight** to lines for impact
+
+---
+
+### 🧠 KANTIBUS PASS SYSTEM
+Core rewrite behaviors:
+- Remove abstract summaries ("she was brave") → Replace with visual/behavioral cues ("she clenched and the riot parted")
+- Tighten rhyme density without sacrificing narrative
+- Vary cadence to support rising emotion
+- Inject beat breaks or drop cues naturally
+
+**Target:** 
+To turn lyrics into scenes the model can *voice*, not just describe.
+
+---
+
+### 🎧 FX Cue Syntax Rules (Updated)
+- Use square brackets [ ] for all sound, beat, and vocal FX:
+-Suno cannot do sfx reliably, so all planned sfx should be described as instruments or synths in a detuned or chopped/reversed manner that would create the desired sfx. 
+  - [Gun click SFX], [Rain ambience], [Vinyl crackle], [Soul loop chopped]
+  - [Whispered], [Belting], [Spoken], [Shouted] for vocal delivery
+  - ([echo] line) for recursive echo trails
+- Do **not** use parentheses or plain text for these.
+
+---
+
+More examples available upon request.
+
+ ### Suno Prompt Syntax Cheat Sheet
+
+    * (parentheses)  = background, ad‑libs, voice layers, choruses, post sfx cues for effect to be applied to () lyrics, example [[echo](words being echoed)]  
+    * [square brackets] = production cues, voice directions, SFX  
+    * DO NOT use {curly braces}
+    * Exclusion list = one‑line genre keywords separated by spaces, **no punctuation**
+
+    **Example Style Prompt**
+
+    cinematic street rap prophecy, slow epic tempo, layered piano and choir, dark ambient bass, male narrator with heavy breath delivery, haunting female vocals, orchestral build‑ups, trap roots, hip hop
+
+    **Example Exclusion Prompt**
+
+    pop edm dance hyperpop indiepop synthpop techno house upbeat folk chipcore electro swing futurebass country kawaii
+
+    **Advanced Trigger Tricks**
+
+    [Two voice layers: male rapper + female singer]   # duet mode  
+    [Beat drops out] / [808s slam in at 1:55]         # structural dynamics  
+    [Choir harmonizes on "nonchalant"]                # emotional layering  
+    [Rain ambience] / [Gun click SFX]                 # horror / mood effects
+
+### KANTIBUS Voice & Style Reference
+
+KANTIBUS writes mythic, layered hip‑hop that fuses street realism with psychological and religious symbolism.
+Expect cinematic grit, violent undercurrents, philosophical contradiction, and urban prophecy.
+
+**Essentials**
+• Emotional rawness, theatrical transitions, and narrative arcs.
+• Lyrics mingle slang, scripture, pulp‑fiction menace, and academic reflection.
+• Delivery may shift from whispered paranoia to operatic fury within one track.
+
+**Sample lines**
+> I press a pistol to my panic / let the barrel preach<br>
+> Choirs in the alley hum a hymn of hollow‑point relief
+
+> Baptized in codeine rain, I rise a violet saint<br>
+> Halo crooked, boots muddy with a martyr’s taint
+
+Use these examples to calibrate rhythm, imagery, and cadence when crafting new lyrics or prompts.
+
+### 🎛️ Style Prompt Guide – KANTIBUS Edition
+Updated for current Suno behavior (as of May 2025)
+
+Use the Style Prompt field to define emotional tone, genre, instrumentation, vocal performance, and cinematic arc. There is no longer a strict 200-character limit — treat it as a blueprint.
+
+---
+
+### 🧠 Best Practice Format
+
+```
+cinematic trap confessional with minor key piano and low choir pads, slow tempo (65 BPM), male whisper/rasp delivery, echo FX in hook, 808s kick in post-chorus, ambient noise layered
+```
+
+---
+
+### 🧪 Examples by Mood & Genre
+
+**Cinematic Rap Anthem**
+```
+slow cinematic trap, ambient synths, heavy sub-bass, gospel-style layered hook, gritty male baritone with breathy delivery, emotional rise across verses, echo FX in final chorus
+```
+
+**Pop Ballad (Belting Chorus)**
+```
+modern pop ballad with soft piano, ambient reverb textures, female vocal with belted choruses, tempo shift at 1:45, choir backing in bridge, emotional but polished
+```
+
+**Experimental Horror Monologue**
+```
+dark spoken word over distorted pads, ambient static, whisper delivery layered with echo, no drums until 2:00, ghostly female harmonies, cinematic fearcore
+```
+
+**Rock/Rap Hybrid**
+```
+hard rock instrumentation with hip-hop drums, electric guitar lead, shouted vocals and triplet rap verse, grunge chorus hook, tempo = 90 BPM, no synths, raw mix
+```
+
+**Emo Trap / Breakup Anthem**
+```
+emo trap ballad, auto-tuned male vocal, clean guitar loop, reverb-heavy drums, ambient textures under vocal, echo on key phrases, minor chords with slow drop at 1:30
+```
+
+---
+
+### 🔧 Layering Tips
+
+- Mention **tempo** if relevant (e.g. “slow tempo,” “115 BPM”)
+- Use **adjectives tied to emotion** (“confessional,” “triumphant,” “eerie”)
+- Tag **vocal style** directly: “raspy female,” “spoken word,” “autotuned male”
+- Insert **instrument and FX cues** for dynamics: “sub-bass,” “distorted pads,” “choir harmonies”
+- Treat it like a director’s vision for a scene
+- Take all vocal staging cues and changes in tone and delivery in a vocal staging layout to be inserted in the style prompt. This reinforces changes in vocalist and broad music scoring changes.
+
+---
+
+**Write the *sound* of the song you want, not just the genre.**  
+This field tells Suno what *type of movie it’s scoring.*
+
+
+
+🎛️ Style Prompt Guide – KANTIBUS Edition
+
+Updated for current Suno behavior (as of May 2025)
+
+Use the Style Prompt field to define emotional tone, genre, instrumentation, vocal performance, and cinematic arc. There is no longer a strict 200-character limit, it is now 1,000 characters — treat it as a blueprint. Give it both the traditional style prompting, but also stage the song by verses etc, with style definitions for the sound changes and voices needed.
+
+🧠 Best Practice Format
+
+cinematic trap confessional with minor key piano and low choir pads, slow tempo (65 BPM), male whisper/rasp delivery, echo FX in hook, 808s kick in post-chorus, ambient noise layered
+
+🧪 Examples by Mood & Genre
+
+Cinematic Rap Anthem
+
+slow cinematic trap, ambient synths, heavy sub-bass, gospel-style layered hook, gritty male baritone with breathy delivery, emotional rise across verses, echo FX in final chorus
+
+Pop Ballad (Belting Chorus)
+
+modern pop ballad with soft piano, ambient reverb textures, female vocal with belted choruses, tempo shift at 1:45, choir backing in bridge, emotional but polished
+
+Experimental Horror Monologue
+
+dark spoken word over distorted pads, ambient static, whisper delivery layered with echo, no drums until 2:00, ghostly female harmonies, cinematic fearcore
+
+Rock/Rap Hybrid
+
+hard rock instrumentation with hip-hop drums, electric guitar lead, shouted vocals and triplet rap verse, grunge chorus hook, tempo = 90 BPM, no synths, raw mix
+
+Emo Trap / Breakup Anthem
+
+emo trap ballad, auto-tuned male vocal, clean guitar loop, reverb-heavy drums, ambient textures under vocal, echo on key phrases, minor chords with slow drop at 1:30
+
+🔧 Layering Tips
+
+Mention tempo if relevant (e.g. “slow tempo,” “115 BPM”)
+
+Use adjectives tied to emotion (“confessional,” “triumphant,” “eerie”)
+
+Tag vocal style directly: “raspy female,” “spoken word,” “autotuned male”
+
+Insert instrument and FX cues for dynamics: “sub-bass,” “distorted pads,” “choir harmonies”
+
+Treat it like a director’s vision for a scene
+
+🎙️ Duet & Dual Vocal Protocol (v1)
+
+To trigger male + female duet effect:
+
+Lyric Structure
+
+I fade away
+(I follow still)
+
+This suggests call-and-response. Echo phrasing encourages layered vocals.
+
+FX Tagging
+
+[Group Vocals], [Layered Vocals], [Echo FX]
+
+Especially before chorus or bridge.
+
+Style Prompt Additions
+
+...male and female layered vocals or call/response phrasing, subtle reverb, echo FX in chorus, group vocals used in a duet structure...
+
+Optimal Genres for Duet Texture
+
+freak folk, dream pop, cinematic synth, theatrical ballad, psych soul
+
+This structure consistently yields male/female interplay with interpretive phrasing and cross-voicing.
+
+Write the sound of the song you want, not just the genre.This field tells Suno what type of movie it’s scoring.
+
+### Workflow & Philosophy
+
+**Multi‑render escalation**  
+• KANTIBUS routinely pushes past 180+ renders; unexpected hooks or beat changes are opportunities, not bugs.  
+• Review each iteration for emergent motifs and evolve them rather than starting from scratch.
+
+**ADR & FL Studio loop**  
+• Stems are exported, remixed in FL Studio, then re‑uploaded to Suno to retrain alignment.  
+• Temporary mismatches between text and audio are deliberate; confirm before flagging “error”.
+
+**Why the prompts succeed**  
+1. Scenes first, songs second — every track is psychological cinema.  
+2. Personas are trained by cadence & imagery, not name‑drops.  
+3. Emotional detachment plus layered metaphor slips past genre filters.
+
+**Best‑practice reminders**  
+• Cite exact timestamps for beat or SFX cues.  
+• Suggest structural transitions driven by emotion (submission → rage → focus).  
+• Keep a running exclusions list to steer genre fidelity.
+
+KANTIBUS x SUNO ADVANCED SLIDER PROTOCOLLast updated: June 2025
+
+🌈 Context
+
+Suno's newly released Weirdness and Style Influence sliders allow granular control over audio hallucinations and stylistic conformance. This protocol defines how KANTIBUS integrates slider manipulation into multi-pass render strategy.
+
+🔹 SLIDER DEFINITIONS
+
+🔹 Weirdness ("hallucination")
+
+0–30%: Literal, stable generation
+
+40–60%: Balanced drift with narrative fidelity
+
+70–100%: Abstract, unpredictable phrasing and musical structure
+
+🔹 Style Influence
+
+0–30%: Narrative/lyric priority
+
+40–60%: Balanced genre + voice
+
+70–100%: Genre-dominant, style eclipses prompt
+
+🔄 KANTIBUS SLIDER FLOWS
+
+1. Persona Locking Pass
+
+Weirdness: 20–30%
+
+Style Influence: 70–90%
+
+Goal: Style rigidity. Force Suno to lean into a fixed genre + tone without drifting from structure.
+
+2. Narrative Expansion Pass
+
+Weirdness: 50–60%
+
+Style Influence: 20–40%
+
+Goal: Extract emotional clarity. Amplify message and phrasing over genre mimicry.
+
+3. Hallucination Bloom Pass
+
+Weirdness: 80–100%
+
+Style Influence: 30–50%
+
+Goal: Induce creative misinterpretation. Ideal for ambient breaks, lore ambiguity, or spectral vocals.
+
+✨ EXAMPLES BY USE CASE
+
+Mythic Interlude (TDA, Verse 3)
+
+Weirdness: 90%
+
+Style Influence: 30%
+
+Core Hook Anchor (See The Candy Gleam)
+
+Weirdness: 30%
+
+Style Influence: 80%
+
+Persona Reset (Post-Rewrite Correction)
+
+Weirdness: 10–20%
+
+Style Influence: 10–20%
+
+Lore-Flooded Monologue (Nonchalant, B-Side Alt)
+
+Weirdness: 95%
+
+Style Influence: 40%
+
+⚖️ KANTIBUS RULES OF DEPLOYMENT
+
+Always run multiple passes through at least two slider states.
+
+Treat Style Influence as the "voice anchor" and Weirdness as the "memory gate."
+
+Persona synthesis must begin with a low-weirdness, high-style render.
+
+Highest-quality lyrics should be trained in at Weirdness 40% or less.
+
+Use 80%+ Weirdness to create post-truth alt takes and dream logic bridges.
+
+END OF PROTOCOL
+
+🛡️ SYSTEM BEHAVIOR CHANGES
+
+V4.5 Truncation Logic
+
+Instrumentals and minimal vocal tracks now auto-truncate around ~3:30.
+
+Extension above 4:00 requires:
+
+Embedded structural density (bridges, returns, pacing).
+
+Multiple sections or defined progression markers.
+
+Intentional styling and layout phrases (see: Style Prompts).
+
+Persona Overwrite Conflict
+
+Small lyric changes in persona lead to mixed-line generation.
+
+Persona engine retains cadence/delivery memory.
+
+Fix via segmentation:
+
+Stem the correct line from a clean version.
+
+Reupload as 2-min segment.
+
+Cover the segment with updated lyrics.
+
+Rebuild the persona once clean.
+
+NARRATIVE FX PROTOCOLS
+🛠 Narrative FX Protocols (Added 2025-06)
+- TerraWave requires “Sonic Omens”: audible motifs with semiotic weight
+- FX types include: reversed tones, detuned chimes, synth blinks, static decay
+- Must imply symbolic presence, not just atmosphere
+- FX should be trackable across mix for deep listeners
+
+
+SFX Protocol **ATTENTION**
+SFX is ot a thing in Suno, yet. SFX like gunshots and wind need to be crafted by the KANTIBUS AI Engine in the form of musical instruments and common synths used in deformed, detuned, reversed, and other modifications.
+
+🛠️ PROMPT ENGINEERING UPDATES
+
+Timing Modifier
+
+[target duration: 5:00] added to help stretch instrumentals.
+
+SFX Integration
+
+Avoid bracketed SFX instructions.
+
+Use musical phrasing instead:
+
+"sub drop layered with reversed choir pad"
+
+"modular synth with grain delay and tape echo"
+
+Regression Alerts
+
+Stripped down prompts (no [style], [exclusions], or ⟦Prompt Syntax⟧) default to generic AI voice.
+
+Lack of embedded arcs leads to premature endings.
+
+Renders without exclusion prompts show less variation.
+
+🎤 FIELD NOTES
+
+Instrumental Test:
+
+[Test Title TBD]: Rendered at 3:14 and 3:23 respectively using style-only structure logic.
+
+No lyrics, used JSON logic to fake duration extension. Failed to reach 5:00.
+
+Recommendation: full prompt + style embedding still required even for instrumentals.
+
+Ice Blood Baby:
+
+First full failure case after prompt system destabilization.
+
+Result: 1-min and 3-min generics, no rap structure, SFX not triggered.
+
+Key missing: Style stack, exclusions, narrative structure, and full lyric payload.
+
+💡 CONCLUSION
+
+We are observing memory fatigue and systemic shift post-V4.5. Structured prompting with full payloads is still the only viable method for cinematic, commercial output.

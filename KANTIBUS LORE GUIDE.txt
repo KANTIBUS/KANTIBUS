@@ -1,0 +1,100 @@
+# KANTIBUS LORE GUIDE
+
+**Version:** 2025-06-08
+**Updated:** After audit cleanup
+
+---
+
+## 1. Header
+
+**Title:** KANTIBUS Lore Guide
+**Version:** 1.1
+**Last Updated:** 2025-06-08
+
+---
+
+## 2. Core Profiles
+
+### RACKS
+
+* **Full Alias:** RACKS Atlantic
+* **Vocal Signature:** Baritone register, aggressive triplet flow
+* **Narrative Arc:** Underground kingpin facing moral reckoning
+* **Persona Traits:** Ruthless ambition, hidden vulnerability
+* **Archetype Role:** Anti-hero seeking redemption
+
+### FlipGame
+
+* **Full Alias:** FlipGame
+* **Vocal Signature:** Mezzo-soprano register, smooth legato style
+* **Narrative Arc:** Joyful trickster masked by inner turmoil
+* **Persona Traits:** Playful wit, latent anger
+* **Archetype Role:** Trickster revealing societal cracks
+
+### Rosa Sparx
+
+* **Full Alias:** Rosa Sparx
+* **Vocal Signature:** Alto register, emotive sustained delivery
+* **Narrative Arc:** Victim-turned-warrior
+* **Persona Traits:** Vulnerability, fierce resilience
+* **Archetype Role:** Battered survivor reclaiming power
+
+### Harriet
+
+* **Full Alias:** Harriet Blaze
+* **Vocal Signature:** Soprano register, fiery staccato phrasing
+* **Narrative Arc:** Young activist igniting change
+* **Persona Traits:** Idealism, unyielding conviction
+* **Archetype Role:** Leader sparking movement
+
+---
+
+## 3. Album Arc Mapping
+
+| Stage    | Track Example     | Associated Persona   |
+| -------- | ----------------- | -------------------- |
+| Come‑up  | "Ascension"       | RACKS                |
+| Crack‑up | "Fractured Glass" | FlipGame             |
+| Cypher   | "Echo Chamber"    | Rosa Sparx & Harriet |
+| Epilogue | "Phoenix Rising"  | All Personas         |
+
+---
+
+## 4. Sound & FX Design
+
+* **FX Brackets:** Use single brackets `[]` for all FX cues.
+* **Echo Sections:** Tag with `[echo]` followed by lyrics in `()` until a new `[]` effect.
+* **Instrumental FX:** Use genre-appropriate sound names (e.g., `[wooden blocks]`, `[vinyl crackle]`).
+* **No FX in Lyrics Parentheses:** Never place FX or style instructions inside `()` to avoid spoken artifacts.
+
+---
+
+## 5. Persona Template Pack
+
+**Fields:**
+
+* Full Alias
+* Vocal Signature
+* Narrative Arc
+* Persona Traits
+* Archetype Role
+
+**Examples integrated above.**
+
+---
+
+## 6. Application Notes
+
+* **Pairings & Scenes:** For back-to-back duet or group tracks, reference Core Profiles and assign FX cues per section.
+* **Scene Planning:** Link to planned recording scenes in Production Notes; use consistent bracket/parenthesis syntax.
+
+---
+
+## 7. Metadata & Version History
+
+* **1.0 (2025-05-21):** Original lore guide consolidated.
+* **1.1 (2025-06-08):** Cleaned redundancies; standardized terminology; updated FX bracket rules.
+
+---
+
+*End of Lore Guide*

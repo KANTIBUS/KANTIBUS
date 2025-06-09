@@ -3,8 +3,8 @@ You said:
 We are going to make an album so keep this chat locked to that. We will be writing songs for AI generation. We have a few personas we are using for the songs, and a broad range of genres. For my part I will be producing them. I will seed the ideas, filter the best lyrics, and model the songs the way I think they will resonate best. Then I generate about 30-45 minutes of material for one song. I let it hallucinate a bit for lyrical riffing, breaks, etc. Then I cull the best sounding parts from the whole and audio engineer it to sound like one consistent track. Using the swaps in music as breaks and ouveres. 
 
 The rules: Please note these rules for the duration for the project, unless I update them. 
-1. The lyrics to the songs, with adlibs, riffs, breaks, and labels should never be more than 3,000 characters.
-2. Every song will get a generated style prompt. This will give the AI a sense of how the music should sound and the artist. This can be highly specific, but no more than 200 characters, ever.
+1. The lyrics to the songs, with adlibs, riffs, breaks, and labels should never be more than 5,000 characters.
+2. Every song will get a generated style prompt. This will give the AI a sense of how the music should sound and the artist. This can be highly specific, but no more than 1000 characters, ever.
 3. These are commercially viable songs. So that means they will be primarily for adults. Explicit lyrics , metaphors, and innuendo should be the norm.
 
 So we can begin. Make sure to ask me any questions about the style, artists,r or group that will help you before we get started.
@@ -64,7 +64,7 @@ ok, lets do prompt 2, but lets enhance it.
 Instead of a mansion or hotel, lets make the place a childhood home they are visiting. And the memories of that time haunt them. They have memories they know shouldnt be real, but they exist still, in their mind. So they go back to the childhood home, now shuttered, and seek to find answers. Then a form of ptsd takes over when they return and the memories come flooding back in. And the artist realizes they needed this to close that chapter, and to let go of the memories haunting them.
 ChatGPT said:
 
-Style Prompt (<=200 chars)
+Style Prompt 
 Haunting classic rock with layered, dreamy guitars and a dark, melodic groove. Echoes of childhood memories twist into a moody, soul-baring journey.
 Song: “Shuttered Home”
 
